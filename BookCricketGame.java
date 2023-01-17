@@ -39,7 +39,7 @@ public class BookCricketGame {
 			if (playerOne.getPlayerScore() > playerTwo.getPlayerScore()) {
 				printWinner(playerOne);
 			} else if (playerOne.getPlayerScore() == playerTwo.getPlayerScore()) {
-				if (playerOne.getPlayerTurns() > playerTwo.getPlayerTurns())
+				if (playerOne.getPlayerTurns() < playerTwo.getPlayerTurns())
 					printWinner(playerOne);
 				else
 					printWinner(playerOne);
